@@ -83,29 +83,30 @@ body {
   position: absolute;
   width: auto;
   height: 45px;
-  margin-top: 0.5%;
-  transform: translateY(30%) translateX(-100%);
+  margin-top: 12px;
+  transform: translateY(50%);
+  margin-right: 20%;
   z-index: 5;
-  margin-left: 9%;
+  margin-left: 110px;
   animation: boomlogo2 3s ease-in forwards;
 }
 
 @keyframes boomlogo2 {
   0% {
-    transform: translateY(70%) translateX(-150%);
+    transform: translateY(100%) translateX(-150%);
     height: 261px;
     width: auto;
     z-index: 15;
   }
   50% {
-    transform: translateY(70%);
+    transform: translateY(100%);
     margin-left: 65%;
     height: 261px;
     width: auto;
     z-index: 15;
   }
   55% {
-    transform: translateY(70%);
+    transform: translateY(100%);
     margin-left: 55%;
     height: 261px;
     width: auto;
@@ -113,7 +114,7 @@ body {
   }
 
   80% {
-    transform: translateY(70%);
+    transform: translateY(100%);
     margin-left: 55%;
     height: 261px;
     width: auto;
@@ -125,9 +126,10 @@ body {
   color: white;
   background-image: url("../public/images/vector.png");
   background-size: 200%;
-
-  height: 708px;
+  background-repeat: no-repeat;
+  height: 100%;
   animation: vectorOne 2s ease-in 1s forwards;
+  padding-bottom: 19%;
 }
 
 @keyframes vectorOne {
@@ -152,17 +154,17 @@ body {
 }
 
 .heroCars {
-  animation: 3s infinite alternate slidein;
   position: absolute;
   width: 60%;
   height: auto;
   left: 40%;
-  top: 40%;
+  margin-top: -5%;
 }
 
 .quote {
   float: right;
   margin-right: 5%;
+  margin-top: -3%;
 }
 
 .quote p {
@@ -421,6 +423,8 @@ header img {
   background-image: url("../public/images/vector2.png");
   background-repeat: no-repeat;
   width: 100%;
+  background-size: 100% 80%;
+
   margin-top: 6%;
 }
 
@@ -699,6 +703,7 @@ header img {
 .complianceSection {
   background-image: url("../public/images/vector3.png");
   background-repeat: no-repeat;
+  background-size: 100% 80%;
   margin-top: 7%;
   text-align: center;
 }
@@ -985,7 +990,7 @@ footer img {
 }
 
 .headerBtn {
-  animation: headerButton 0.2s ease-in 5s forwards;
+  animation: headerButton 1s ease-in 5s forwards;
   opacity: 0%;
 }
 
