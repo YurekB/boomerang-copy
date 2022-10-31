@@ -1,7 +1,6 @@
 import BenefitsData from "./BenefitsData";
 
 const Benefits = () => {
-  console.log(BenefitsData, "LOG");
   return (
     <div class="benefits-section">
       <h2 class="subheading">The extra benefits</h2>
