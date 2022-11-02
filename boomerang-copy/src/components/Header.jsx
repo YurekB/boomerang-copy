@@ -17,12 +17,13 @@ const Header = () => {
             <button>Contact us</button>
           </div>
         </div>
+        {/* <div className="square"></div> */}
         <div>
           <h1 class="main-section-title swipeIn introHead">
             The <span class="underline">Cheapest</span> Taxi{<br />}You’ve{" "}
             <span class="underline">Ever</span> Bought.
           </h1>
-          <h5 class="introHead">
+          <h5 class=" opa">
             With Boomerang, rent a clean-air-compliant hybrid taxi from us, then
             keep it for just £1!
           </h5>
